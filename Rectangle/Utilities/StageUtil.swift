@@ -48,6 +48,7 @@ class StageUtil {
     }
     
     static func isStageStripVisible(_ screen: NSScreen? = .main) -> Bool {
+        return true
         guard let screen else {
             return false
         }
